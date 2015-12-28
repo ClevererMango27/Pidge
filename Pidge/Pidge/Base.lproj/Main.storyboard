@@ -16,11 +16,26 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bvn-fl-bog">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Bvn-fl-bog" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DOy-ca-HY7"/>
+                            <constraint firstItem="Bvn-fl-bog" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="k2b-8p-Y2Z"/>
+                            <constraint firstItem="Bvn-fl-bog" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="oEI-4n-6nq"/>
+                            <constraint firstItem="Bvn-fl-bog" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="tox-v2-ucf"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="scrollview" destination="Bvn-fl-bog" id="pVh-Ko-Agq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="106" y="366"/>
         </scene>
     </scenes>
 </document>

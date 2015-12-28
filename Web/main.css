@@ -1,4 +1,4 @@
-.done{
+header{
   background-color: #FF5722;
   position: relative;
   width:100%;
@@ -9,16 +9,15 @@
   -o-background-size: cover;
 }
 .pidge{
-  vertical-align: middle;
   text-align: center;
-  letter-spacing: 2px;
+  vertical-align: middle;
   font-size: 24;
   font-family: sans-serif;
+  color: white;
 }
 #bouncyarrow{
   vertical-align: bottom;
-  display:table-row;
-  text-align: center;
+  display: table-row;
   height:40px;
   color:#ffffff;
   -webkit-animation: bounce 2s infinite;

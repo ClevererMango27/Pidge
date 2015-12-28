@@ -14,6 +14,10 @@
 		366318291C30AF6300EC3E83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 366318271C30AF6300EC3E83 /* LaunchScreen.storyboard */; };
 		366318341C30AF6300EC3E83 /* PidgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366318331C30AF6300EC3E83 /* PidgeTests.swift */; };
 		3663183F1C30AF6300EC3E83 /* PidgeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3663183E1C30AF6300EC3E83 /* PidgeUITests.swift */; };
+		3663184E1C30E0FE00EC3E83 /* View1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3663184C1C30E0FE00EC3E83 /* View1.swift */; };
+		3663184F1C30E0FE00EC3E83 /* View1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3663184D1C30E0FE00EC3E83 /* View1.xib */; };
+		366318521C30E20D00EC3E83 /* View2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366318501C30E20D00EC3E83 /* View2.swift */; };
+		366318531C30E20D00EC3E83 /* View2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 366318511C30E20D00EC3E83 /* View2.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		3663183A1C30AF6300EC3E83 /* PidgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PidgeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3663183E1C30AF6300EC3E83 /* PidgeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PidgeUITests.swift; sourceTree = "<group>"; };
 		366318401C30AF6300EC3E83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3663184C1C30E0FE00EC3E83 /* View1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View1.swift; sourceTree = "<group>"; };
+		3663184D1C30E0FE00EC3E83 /* View1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View1.xib; sourceTree = "<group>"; };
+		366318501C30E20D00EC3E83 /* View2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View2.swift; sourceTree = "<group>"; };
+		366318511C30E20D00EC3E83 /* View2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View2.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +108,11 @@
 				3663181E1C30AF6300EC3E83 /* AppDelegate.swift */,
 				366318201C30AF6300EC3E83 /* ViewController.swift */,
 				366318221C30AF6300EC3E83 /* Main.storyboard */,
+				366318501C30E20D00EC3E83 /* View2.swift */,
+				366318511C30E20D00EC3E83 /* View2.xib */,
 				366318251C30AF6300EC3E83 /* Assets.xcassets */,
+				3663184C1C30E0FE00EC3E83 /* View1.swift */,
+				3663184D1C30E0FE00EC3E83 /* View1.xib */,
 				366318271C30AF6300EC3E83 /* LaunchScreen.storyboard */,
 				3663182A1C30AF6300EC3E83 /* Info.plist */,
 			);
@@ -231,6 +243,8 @@
 			files = (
 				366318291C30AF6300EC3E83 /* LaunchScreen.storyboard in Resources */,
 				366318261C30AF6300EC3E83 /* Assets.xcassets in Resources */,
+				3663184F1C30E0FE00EC3E83 /* View1.xib in Resources */,
+				366318531C30E20D00EC3E83 /* View2.xib in Resources */,
 				366318241C30AF6300EC3E83 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +271,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				366318211C30AF6300EC3E83 /* ViewController.swift in Sources */,
+				3663184E1C30E0FE00EC3E83 /* View1.swift in Sources */,
 				3663181F1C30AF6300EC3E83 /* AppDelegate.swift in Sources */,
+				366318521C30E20D00EC3E83 /* View2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +498,7 @@
 				366318451C30AF6300EC3E83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		366318461C30AF6300EC3E83 /* Build configuration list for PBXNativeTarget "PidgeTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +507,7 @@
 				366318481C30AF6300EC3E83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		366318491C30AF6300EC3E83 /* Build configuration list for PBXNativeTarget "PidgeUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +516,7 @@
 				3663184B1C30AF6300EC3E83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,3 +1,5 @@
 # Pidge
 
-Social-Media App comming to iOS and Android. 
+Social-Media App coming to iOS and Android.
+
+## Log

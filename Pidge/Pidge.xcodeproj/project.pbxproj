@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36086E0E1C34BD61003DC94E /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36086E0C1C34BD61003DC94E /* ViewController1.swift */; };
+		36086E0F1C34BD61003DC94E /* ViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36086E0D1C34BD61003DC94E /* ViewController1.xib */; };
+		36086E121C34BD7F003DC94E /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36086E101C34BD7F003DC94E /* ViewController2.swift */; };
+		36086E131C34BD7F003DC94E /* ViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36086E111C34BD7F003DC94E /* ViewController2.xib */; };
+		36086E161C34BD98003DC94E /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36086E141C34BD98003DC94E /* ViewController3.swift */; };
+		36086E171C34BD98003DC94E /* ViewController3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36086E151C34BD98003DC94E /* ViewController3.xib */; };
 		3663181F1C30AF6300EC3E83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3663181E1C30AF6300EC3E83 /* AppDelegate.swift */; };
 		366318211C30AF6300EC3E83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366318201C30AF6300EC3E83 /* ViewController.swift */; };
 		366318241C30AF6300EC3E83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 366318221C30AF6300EC3E83 /* Main.storyboard */; };
@@ -14,10 +20,6 @@
 		366318291C30AF6300EC3E83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 366318271C30AF6300EC3E83 /* LaunchScreen.storyboard */; };
 		366318341C30AF6300EC3E83 /* PidgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366318331C30AF6300EC3E83 /* PidgeTests.swift */; };
 		3663183F1C30AF6300EC3E83 /* PidgeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3663183E1C30AF6300EC3E83 /* PidgeUITests.swift */; };
-		3663184E1C30E0FE00EC3E83 /* View1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3663184C1C30E0FE00EC3E83 /* View1.swift */; };
-		3663184F1C30E0FE00EC3E83 /* View1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3663184D1C30E0FE00EC3E83 /* View1.xib */; };
-		366318521C30E20D00EC3E83 /* View2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366318501C30E20D00EC3E83 /* View2.swift */; };
-		366318531C30E20D00EC3E83 /* View2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 366318511C30E20D00EC3E83 /* View2.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		36086E0C1C34BD61003DC94E /* ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController1.swift; path = ../ViewController1.swift; sourceTree = "<group>"; };
+		36086E0D1C34BD61003DC94E /* ViewController1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ViewController1.xib; path = ../ViewController1.xib; sourceTree = "<group>"; };
+		36086E101C34BD7F003DC94E /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController2.swift; path = ../ViewController2.swift; sourceTree = "<group>"; };
+		36086E111C34BD7F003DC94E /* ViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ViewController2.xib; path = ../ViewController2.xib; sourceTree = "<group>"; };
+		36086E141C34BD98003DC94E /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController3.swift; path = ../ViewController3.swift; sourceTree = "<group>"; };
+		36086E151C34BD98003DC94E /* ViewController3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ViewController3.xib; path = ../ViewController3.xib; sourceTree = "<group>"; };
 		3663181B1C30AF6300EC3E83 /* Pidge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pidge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3663181E1C30AF6300EC3E83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		366318201C30AF6300EC3E83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,10 +59,6 @@
 		3663183A1C30AF6300EC3E83 /* PidgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PidgeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3663183E1C30AF6300EC3E83 /* PidgeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PidgeUITests.swift; sourceTree = "<group>"; };
 		366318401C30AF6300EC3E83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3663184C1C30E0FE00EC3E83 /* View1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View1.swift; sourceTree = "<group>"; };
-		3663184D1C30E0FE00EC3E83 /* View1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View1.xib; sourceTree = "<group>"; };
-		366318501C30E20D00EC3E83 /* View2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View2.swift; sourceTree = "<group>"; };
-		366318511C30E20D00EC3E83 /* View2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View2.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,14 +109,16 @@
 		3663181D1C30AF6300EC3E83 /* Pidge */ = {
 			isa = PBXGroup;
 			children = (
+				36086E0C1C34BD61003DC94E /* ViewController1.swift */,
+				36086E0D1C34BD61003DC94E /* ViewController1.xib */,
+				36086E101C34BD7F003DC94E /* ViewController2.swift */,
+				36086E111C34BD7F003DC94E /* ViewController2.xib */,
+				36086E141C34BD98003DC94E /* ViewController3.swift */,
+				36086E151C34BD98003DC94E /* ViewController3.xib */,
 				3663181E1C30AF6300EC3E83 /* AppDelegate.swift */,
 				366318201C30AF6300EC3E83 /* ViewController.swift */,
 				366318221C30AF6300EC3E83 /* Main.storyboard */,
-				366318501C30E20D00EC3E83 /* View2.swift */,
-				366318511C30E20D00EC3E83 /* View2.xib */,
 				366318251C30AF6300EC3E83 /* Assets.xcassets */,
-				3663184C1C30E0FE00EC3E83 /* View1.swift */,
-				3663184D1C30E0FE00EC3E83 /* View1.xib */,
 				366318271C30AF6300EC3E83 /* LaunchScreen.storyboard */,
 				3663182A1C30AF6300EC3E83 /* Info.plist */,
 			);
@@ -241,10 +247,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36086E171C34BD98003DC94E /* ViewController3.xib in Resources */,
+				36086E131C34BD7F003DC94E /* ViewController2.xib in Resources */,
+				36086E0F1C34BD61003DC94E /* ViewController1.xib in Resources */,
 				366318291C30AF6300EC3E83 /* LaunchScreen.storyboard in Resources */,
 				366318261C30AF6300EC3E83 /* Assets.xcassets in Resources */,
-				3663184F1C30E0FE00EC3E83 /* View1.xib in Resources */,
-				366318531C30E20D00EC3E83 /* View2.xib in Resources */,
 				366318241C30AF6300EC3E83 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,10 +277,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36086E161C34BD98003DC94E /* ViewController3.swift in Sources */,
+				36086E0E1C34BD61003DC94E /* ViewController1.swift in Sources */,
+				36086E121C34BD7F003DC94E /* ViewController2.swift in Sources */,
 				366318211C30AF6300EC3E83 /* ViewController.swift in Sources */,
-				3663184E1C30E0FE00EC3E83 /* View1.swift in Sources */,
 				3663181F1C30AF6300EC3E83 /* AppDelegate.swift in Sources */,
-				366318521C30E20D00EC3E83 /* View2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

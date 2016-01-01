@@ -16,11 +16,26 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hkd-vV-ud4">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Hkd-vV-ud4" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="5P0-Sc-6Gn"/>
+                            <constraint firstItem="Hkd-vV-ud4" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="F09-pO-L49"/>
+                            <constraint firstItem="Hkd-vV-ud4" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="IfQ-cM-ElG"/>
+                            <constraint firstItem="Hkd-vV-ud4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Vx5-pW-AS9"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="scrollView" destination="Hkd-vV-ud4" id="IQ5-xa-RH8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="340" y="429"/>
         </scene>
     </scenes>
 </document>
